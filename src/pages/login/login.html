@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+
+  
+
+  <ion-list >
+
+  <ion-card >
+    <img src ="assets/img/iconcake.gif"/>
+  </ion-card>
+
+
+   <ion-card style ="background-color: #FFF0F5">
+    <ion-item>
+
+      <ion-label color = "dark" stacked><br><br>Username</ion-label><br>
+      <ion-input type="text"  placeholder="Email or Username"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color = "dark" stacked><br>Password</ion-label>
+      <ion-input type="password" placeholder="password"></ion-input>
+    </ion-item>
+
+    </ion-card>
+
+  </ion-list>
+ 
+
+    <div padding >
+        <!--<a ng-href="tabs.html">
+        <button ion-button color="light" block ng-click="create('tabss.html')" >Sign In</button></a> -->
+        <button ion-button color="dark" clear full outline [navPush]="pushPage">Log in</button>
+      
+      </div>
+</ion-content>
+
+
+
+
+

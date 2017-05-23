@@ -1,0 +1,141 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      Menu
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- MENU CAKE1 -->
+<ion-content padding>
+<ion-card>
+
+	<img src="assets/img/cake2.jpg"/>
+	<ion-card-content>
+	      <ion-card-title>
+	        Rose Symphony 
+	      </ion-card-title>
+	      <p>
+	       trawberry Cake
+	        Rose Symphony 
+	        599 Baht
+	      </p>
+	</ion-card-content>
+	<ion-item>
+	  <ion-icon name="logo-twitter" item-left></ion-icon>
+	  Follow us
+	  <ion-badge item-right color="color1">KitkatAndCracker</ion-badge>
+
+	  <!--<ion-item-sliding *ngFor=" let cakeAdd of cakeAdds | async" ></ion-item-sliding> -->
+
+	</ion-item>
+
+	 <!--> SHOW WHEN CLICK ADD *** Msg ของราคาแต่ละอัน จะอยู่หน้า about.ts<-->
+ 	<button ion-button block color="color1" (click)="showToast('top')">ADD TO BARKET</button>
+
+<!--
+ 	<ion-card-content>
+      <button ion-button (click)="addCake()" color="default" block>+ Add queue</button>
+    </ion-card-content>
+-->
+</ion-card>
+ 
+
+
+<!-- MENU CAKE2 -->
+<ion-card>
+
+	<img src="assets/img/cake3.jpg"/>
+	<ion-card-content>
+	      <ion-card-title>
+	        Wedding Cake
+	      </ion-card-title>
+	      <p>
+	        Vanila and Charcoal
+	        2000 Baht
+	      </p>
+	</ion-card-content>
+	<ion-item>
+	  <ion-icon name="logo-twitter" item-left></ion-icon>
+	  Follow us
+	  <ion-badge item-right color="color1" >KitkatAndCracker</ion-badge>
+	</ion-item>
+
+	<!--> SHOW WHEN CLICK ADD<-->
+ 	<button ion-button block color="color1" (click)="showToast2('top')">ADD TO BARKET</button>
+
+</ion-card>
+
+<!-- MENU CAKE3 -->
+<ion-card>
+	<img src="assets/img/cake4.jpg"/>
+	<ion-card-content>
+	      <ion-card-title>
+	        Princess Cake
+	      </ion-card-title>
+	      <p>
+	        Strawberry favor 600 Baht
+	      </p>
+	</ion-card-content>
+	<ion-item>
+	  <ion-icon name="logo-twitter" item-left></ion-icon>
+	  Follow us
+	  <ion-badge item-right color="color1">KitkatAndCracker</ion-badge>
+	</ion-item>
+
+		<!--> SHOW WHEN CLICK ADD<-->
+ 	<button ion-button block color="color1" (click)="showToast3('top')">ADD TO BARKET</button>
+
+</ion-card>
+
+
+<!-- MENU CAKE4 -->
+<ion-card>
+	<img src="assets/img/cake5.jpg"/>
+	<ion-card-content>
+	      <ion-card-title>
+	        Pink Gold Wedding Cake
+	      </ion-card-title>
+	      <p>
+	        Vanila favor and cover with gold 2500 Baht
+	      </p>
+	</ion-card-content>
+	<ion-item>
+	  <ion-icon name="logo-twitter" item-left></ion-icon>
+	  Follow us
+	  <ion-badge item-right color="color1">KitkatAndCracker</ion-badge>
+
+	  <ion-item-sliding *ngFor=" let cakeAdd of cakeAdds | async" ></ion-item-sliding>
+
+	</ion-item>
+
+	<!--> SHOW WHEN CLICK ADD<-->
+ 	<button ion-button block color="color1" (click)="showToast4('top')">ADD TO BARKET</button>
+
+</ion-card>
+
+
+<!-- MENU CAKE5 -->
+<ion-card>
+	<img src="assets/img/cake10.jpg"/>
+	<ion-card-content>
+	      <ion-card-title>
+	        Macaroon Melting Cake
+	      </ion-card-title>
+	      <p>
+	        Vanila favor and top with blueberry macaroon 500 Baht
+	      </p>
+	</ion-card-content>
+	<ion-item>
+	  <ion-icon name="logo-twitter" item-left></ion-icon>
+	  Follow us
+	  <ion-badge item-right color="color1">KitkatAndCracker</ion-badge>
+	</ion-item>
+
+	<!--> SHOW WHEN CLICK ADD<-->
+ 	<button ion-button block color="color1" (click)="showToast5('top')">ADD TO BARKET</button>
+
+</ion-card>
+
+
+</ion-content>
